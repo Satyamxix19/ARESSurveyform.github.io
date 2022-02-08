@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+    <link rel="stylesheet" href="ARES.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+    <div class="main">
+        <div id="head">
+            <h2>ARES Survey Form </h2>
+        </div>
+        <br>
+        <form>
+            <label class="hdng" for="name"> Name</label>
+            <div>
+                <input class="input" type="text" name="myName" id="name" placeholder="Enter your name">
+            </div>
+            <br>
+            <label class="hdng" for="email"> Email</label>
+
+            <div>
+                <input class="input" type="email" name="myEmail" placeholder="Enter your Email">
+            </div>
+
+
+            <br>
+
+            <label class="hdng" for="Age">Age</label>
+            <div>
+                <input class="input" type="number" min="0" name="Age" placeholder="Enter your Age ">
+            </div>
+            <br>
+            <label class="hdng" for="role">Which option best describes your current role? </label>
+            <div>
+
+                <select class="choose" name="Your role" id="role">
+                    <option value="selrole" disabled="disabled" selected="selected">-- Select current role</option>
+                    <option value="Web developer">Web developer</option>
+                    <option value="App developer">App developer</option>
+                    <option value="Graphic designer">Graphic designer</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+            </div>
+            <br>
+
+            <label class="hdng" for="AbtARES">What is the one thing which excites you most about ARES</label>
+            <div>
+                <select class="choose" name="AbtARES" id="ARES">
+                    <option value="selrole" disabled="disabled" selected="selected">-- Select current role</option>
+                    <option value="Robots">Robots</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Community of ARES">Community of ARES</option>
+                    <option value="ARES' Comics">ARES' Comics</option>
+                   
+                </select>
+            </div>
+            <br>
+            <label class="hdng" for="Suggestions">Any comment or Suggestions? </label>
+            <div>
+                <textarea class="textarea" name="suggestions" id="cmntsgs" cols="50" rows="10"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+            <br>
+
+            <div>
+                <input class="submit" type="submit" value="Submit Now">
+            </div>
+
+        </form>
+        <div>
+            <ul class="icons" style="list-style-type:none">
+                <li> <a href="https://aresroboticsnsut.com/"> <img src="ares.png" height="24px" alt=""></a></li>
+                <li><a href="https://www.youtube.com/channel/UCLKSVL4HznfNCShrEWSyu7A"><img src="youtube.png" alt="">
+                    </a></li>
+                <li> <a href="https://www.instagram.com/aresrobotics.nsut/"><img src="instagram.png" alt=""></a></li>
+                <li> <a href="https://www.facebook.com/aresmarsrover/?ref=page_internal"><img src="facebook.png"
+                            alt=""></a></li>
+                <li> <a href="https://www.linkedin.com/company/team-ares-robotics/"><img src="linkedin.png" alt=""></a>
+                </li>
+                <li> <a href="https://github.com/TeamARES"><img src="github.png" alt=""></a>
+
+            </ul>
+        </div>
+        <div class="ares">
+            <a href="https://aresroboticsnsut.com/"> <img src="ares.png" height="80px" alt=""></a>
+        </div>
+        <div class="logo"><img src="aresname.png" height="80px" alt=""></div>
+    </div>
+</body>
+
+</html>
